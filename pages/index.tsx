@@ -23,7 +23,10 @@ export default function LandingPage() {
         </Hero.Subtitle>
         <Hero.Actions>
           <Button to="/intro">Get Started</Button>
-          <Button to="https://github.com/sussy-code/skool-project" type="secondary">
+          <Button
+            to="https://github.com/sussy-code/skool-project"
+            type="secondary"
+          >
             See source code
           </Button>
         </Hero.Actions>
