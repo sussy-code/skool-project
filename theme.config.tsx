@@ -3,28 +3,15 @@ import { Logo } from './components/Logo';
 import { NextSeo } from 'next-seo';
 import faviconUrl from "./public/logo-img.png";
 
-const starLinks = [
-  link('GitHub', 'https://github.com/sussy-code/smov', {
-    style: 'star',
-    newTab: true,
-    icon: 'akar-icons:github-fill',
-  }),
-  link('Discord', 'https://discord.gg/kdkTZ4McvD', {
-    style: 'star',
-    newTab: true,
-    icon: 'fa6-brands:discord',
-  }),
-];
-
 export default defineTheme({
-  github: "sussy-code/smov",
+  github: "sussy-code/skool-project",
   navigation: [
     link('Discord', 'https://discord.gg/kdkTZ4McvD', {
       style: 'star',
       newTab: true,
       icon: 'mdi:discord',
     }),
-    link('Check it out', 'https://sudo-flix.lol', {
+    link('My other project', 'https://sudo-flix.lol', {
       style: 'star',
       newTab: true,
     }),
@@ -70,9 +57,12 @@ export default defineTheme({
   directories: [
     directory("main", {
       sidebar: [
-        ...starLinks,
         group("Global", [
-          link("Introduction", "/intro", { icon: 'mdi:web' }),
+          // Havent done any of this shit.
+          link("Introduction", "/intro", { icon: 'mdi:handshake' }),
+          link("Ingredients", "/ingredients", { icon: 'mdi:cow' }),
+          link("Pricing", "/pricing", { icon: 'mdi:money' }),
+          link("About us", "/about", { icon: 'mdi:about' }),
         ]),
       ]
     })
