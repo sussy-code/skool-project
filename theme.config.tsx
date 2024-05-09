@@ -40,6 +40,8 @@ export default defineTheme({
   settings: {
     logo: () => <Logo />,
     backgroundPattern: 'flare',
+    toc: false,
+    contentFooter: false,
     colors: {
       "primary": "#A476D9",
       "primaryLighter": "#C4ADDE",
@@ -57,13 +59,10 @@ export default defineTheme({
   directories: [
     directory("main", {
       sidebar: [
-        group("Global", [
-          // Havent done any of this shit.
-          link("Introduction", "/intro", { icon: 'mdi:handshake' }),
-          link("Ingredients", "/ingredients", { icon: 'mdi:cow' }),
-          link("Pricing", "/pricing", { icon: 'mdi:money' }),
-          link("About us", "/about", { icon: 'mdi:about' }),
-        ]),
+        link("Introduction", "/intro", { icon: 'mdi:handshake' }),
+        link("Ingredients", "/ingredients", { icon: 'mdi:cow' }),
+        link("Pricing", "/pricing", { icon: 'mdi:money' }),
+        link("About us", "/about", { icon: 'mdi:about' }),
       ]
     })
   ],
