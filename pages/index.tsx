@@ -22,7 +22,7 @@ export default function LandingPage() {
           An all nature solution to overactive dogs. Makes them and you chill.
         </Hero.Subtitle>
         <Hero.Actions>
-          <Button to="/intro">Get Started</Button>
+          <Button to="/intro">Learn more</Button>
           <Button
             to="https://github.com/sussy-code/skool-project"
             type="secondary"

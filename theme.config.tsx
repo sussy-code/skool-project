@@ -54,8 +54,9 @@ export default defineTheme({
     directory("main", {
       sidebar: [
         link("Introduction", "/intro", { icon: 'mdi:handshake' }),
-        link("Ingredients", "/ingredients", { icon: 'mdi:cow' }),
-        link("Pricing", "/pricing", { icon: 'mdi:money' }),
+        link("Ingredients", "/ingredients", { icon: 'mdi:chef-hat' }),
+        link("Pricing", "/pricing", { icon: 'mdi:cash-multiple' }),
+        link("Contact us", "/contact", { icon: 'mdi:contact'}),
         link("About us", "/about", { icon: 'mdi:about' }),
       ]
     })
