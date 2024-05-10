@@ -31,6 +31,19 @@ export default function LandingPage() {
           </Button>
         </Hero.Actions>
       </Hero>
+      <Frame plain={true}>
+        <CardGrid>
+          <Card icon="mdi:sprout" title="All Natural">
+            Chill Pill exclusively uses exclusively natural and ethically obtained ingredients.
+          </Card>
+          <Card icon="mdi:shield-home" title="USA Based">
+            We brainstorm, produce and live in the United States fostering homegrown quality and supporting our nation.
+          </Card>
+          <Card icon="mdi:checkbox-marked" title="FDA Approved">
+            Our dog chews are FDA approved ensuring guaranteed trust and quality.
+          </Card>
+        </CardGrid>
+      </Frame>
     </GuiderLayout>
   );
 }

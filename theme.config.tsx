@@ -6,11 +6,6 @@ import faviconUrl from "./public/logo-img.png";
 export default defineTheme({
   github: "sussy-code/skool-project",
   navigation: [
-    link('Discord', 'https://discord.gg/kdkTZ4McvD', {
-      style: 'star',
-      newTab: true,
-      icon: 'mdi:discord',
-    }),
     link('My other project', 'https://sudo-flix.lol', {
       style: 'star',
       newTab: true,
@@ -21,7 +16,6 @@ export default defineTheme({
     editRepositoryBase: "https://github.com/sussy-code/docs/blob/master",
     socials: [
       social.github("https://github.com/sussy-code"),
-      social.discord("https://discord.gg/kdkTZ4McvD"),
     ]
   },
   meta: (pageMeta) => (
